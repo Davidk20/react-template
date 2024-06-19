@@ -21,8 +21,9 @@ To configure this template for a new project
 
 1) Change the title in [package.json](package.json)
 2) Change the details in [index.html](public/index.html)
-3) Change logo's
-4) Delete this section from the README
+3) Change the details in [manifest.json](public/manifest.json)
+4) Change logo's
+5) Delete this section from the README
 
 
 ## Development
