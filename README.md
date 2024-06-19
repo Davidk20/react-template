@@ -26,11 +26,9 @@ To configure this template for a new project
 5) Delete this section from the README
 
 
-## Development
-
 ### Pre-Commit
 
-This project makes use of [pre-commit](https://pre-commit.com/) as a tool for development. Usage requires Python to be installed, however, this should already be installed should you have followed the [installation steps](#back-end-solutions).
+This project uses [pre-commit](https://pre-commit.com/) as a tool for development. Usage requires Python to be installed, however, this should already be installed should you have followed the [installation steps](#back-end-solutions).
 
 ```shell
 # only run this if not already installed
@@ -39,4 +37,12 @@ pip install pre-commit
 pre-commit --version
 # inside the project directory, run this command to install the git hook scripts
 pre-commit install --hook-type pre-commit --hook-type pre-push
+```
+
+
+### React
+
+```shell
+npm install
+npm start
 ```
